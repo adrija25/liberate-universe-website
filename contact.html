@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Liberate Universe</title>
+    <meta name="description" content="Contact Liberate Universe for support, privacy requests, business enquiries, and general questions.">
+
+    <style>
+        :root {
+            --bg: #faf9f7;
+            --card: #ffffff;
+            --text: #242424;
+            --muted: #666666;
+            --accent: #6b4eff;
+            --border: #e8e5df;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 60px 24px 80px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .brand {
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: clamp(36px, 6vw, 52px);
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            margin: 0 0 15px;
+        }
+
+        .intro {
+            color: var(--muted);
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 17px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 30px;
+        }
+
+        .card.full {
+            grid-column: 1 / -1;
+        }
+
+        .icon {
+            font-size: 25px;
+            margin-bottom: 12px;
+        }
+
+        h2 {
+            font-size: 21px;
+            margin: 0 0 10px;
+        }
+
+        p {
+            margin: 0 0 12px;
+            color: var(--muted);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            word-break: break-word;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-name {
+            color: var(--text);
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--muted);
+            font-size: 14px;
+            margin-top: 45px;
+        }
+
+        .legal {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .legal a {
+            margin: 0 8px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 650px) {
+            .container {
+                padding: 40px 16px 60px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card.full {
+                grid-column: auto;
+            }
+
+            .card {
+                padding: 25px 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <div class="brand">Liberate Universe</div>
+
+        <h1>Contact Us</h1>
+
+        <p class="intro">
+            Have a question, need support, or want to get in touch with
+            Liberate Universe? We're here to help.
+        </p>
+    </header>
+
+    <div class="grid">
+
+        <section class="card">
+            <div class="icon">✉</div>
+
+            <h2>Email</h2>
+
+            <p>
+                For general enquiries, support, privacy requests,
+                and business enquiries:
+            </p>
+
+            <a href="mailto:official@liberateuniverse.co.in">
+                official@liberateuniverse.co.in
+            </a>
+        </section>
+
+
+        <section class="card">
+            <div class="icon">☏</div>
+
+            <h2>Phone</h2>
+
+            <p>
+                For direct enquiries, you can reach us at:
+            </p>
+
+            <a href="tel:+918178569950">
+                +91 81785 69950
+            </a>
+        </section>
+
+
+        <section class="card">
+            <div class="icon">◉</div>
+
+            <h2>WhatsApp</h2>
+
+            <p>
+                For WhatsApp enquiries and support:
+            </p>
+
+            <a href="https://wa.me/918822408355" target="_blank" rel="noopener noreferrer">
+                +91 88224 08355
+            </a>
+        </section>
+
+
+        <section class="card">
+            <div class="icon">◆</div>
+
+            <h2>Founder</h2>
+
+            <p class="contact-name">
+                Adrija Choudhury
+            </p>
+
+            <p>
+                Liberate Universe
+            </p>
+        </section>
+
+
+        <section class="card full">
+            <h2>Privacy & Data Requests</h2>
+
+            <p>
+                To request access, correction, or deletion of your personal
+                information, please email us with the subject line
+                <strong>"Privacy Request"</strong>.
+            </p>
+
+            <p>
+                For account and personal-data deletion requests, please use
+                the subject line
+                <strong>"Account and Data Deletion Request"</strong>.
+            </p>
+
+            <p>
+                Email:
+                <a href="mailto:official@liberateuniverse.co.in">
+                    official@liberateuniverse.co.in
+                </a>
+            </p>
+        </section>
+
+    </div>
+
+    <div class="legal">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="index.html">Home</a>
+    </div>
+
+    <footer>
+        © 2026 Liberate Universe. All rights reserved.
+    </footer>
+
+</div>
+
+</body>
+</html>
